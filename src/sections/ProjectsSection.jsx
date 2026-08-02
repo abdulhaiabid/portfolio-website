@@ -48,9 +48,9 @@ function ProjectSection() {
       description:
         "An AI-powered web application that removes image backgrounds through API integration, providing a simple and seamless image editing experience.",
       tags: ["React", "Node.js", "API Integration"],
-      imageURL: "tech-store-screenshot-3.jpg",
+      imageURL: "bg-remover-screenshot- Copy.jpeg",
       liveDemoURL: "#",
-      sourceCodeURL: "#",
+      sourceCodeURL: "#"
     },
   ];
   return (
