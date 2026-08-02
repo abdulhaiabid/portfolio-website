@@ -7,7 +7,7 @@ export function ThemeProvider({ children }) {
     const theme = localStorage.getItem("theme");
 
     if (!theme) {
-      return false;
+      return true; // true - defualt dark theme
     }
 
     if (theme === "light") {
