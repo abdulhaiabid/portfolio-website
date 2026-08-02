@@ -1,0 +1,125 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  :root {
+    interpolate-size: allow-keywords;
+  }
+}
+
+/* Custom Animations */
+@keyframes shake {
+  0%, 24%, 50%, 100% { transform: rotate(0); }
+  16%, 34% { transform: rotate(15deg); }
+}
+
+@keyframes colorPulse {
+  0% {
+      box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.6);
+  }
+  75%, 100% {
+      box-shadow: 0 0 0 10px rgba(52, 211, 153, 0);
+  }
+}
+
+@layer utilities {
+  .animate-shake {
+    transform-origin: bottom right;
+    animation: shake 2s ease-in-out infinite;
+  }
+
+  .animate-color-pulse {
+    animation: colorPulse 1500ms ease-out infinite;
+  }
+
+  .text-section-eyebrow {
+    @apply text-sm sm:text-base text-center text-accent-primary uppercase font-mono font-semibold;
+  }
+
+  .text-section-heading {
+    @apply text-3xl sm:text-5xl text-center text-text-primary font-heading font-bold;
+  }
+
+  .text-section-tagline {
+    @apply text-sm sm:text-lg text-center text-text-secondary font-medium;
+  }
+}
+
+/* Purple Brand */
+.light{
+  --accent-primary:#6c63ff;
+  --accent-secondary:#38BDF8;
+  --accent-tertiary:#0891B2;
+  --accent-glow:rgba(108,99,255,.18);
+
+  --text-primary:#241B4B;
+  --text-secondary:#5F5B77;
+  --text-tertiary:#6c63ff;
+  --text-muted:#7C7C90;
+
+  --background-primary:#FCFBFF;
+  --background-secondary:#FFFFFF;
+  --background-tertiary:#F5F3FF;
+  --background-on-surface:#FFFFFF;
+
+  --border:#E5E1FF;
+  --border-light:#DAD3FF;
+}
+
+.dark {
+  --accent-primary: #6c63ff;
+  --accent-secondary: #22d3ee;
+  --accent-glow: rgba(108, 99, 255, 0.35);
+
+  --text-primary: #f5f7fA;
+  --text-secondary: #9ca3af;
+  --text-tertiary: #22d3ee;
+  --text-muted: #6B7280;
+
+  --background-primary: #0b0f19;
+  --background-secondary: #131826;
+  --background-tertiary: #1a1f30;
+  --background-on-surface: oklch(from var(--background-primary) calc(l * 1.6) calc(c * 2) h);
+
+  --border: #232a3d;
+  --border-light: #2d3548;
+}
+
+@theme inline {
+  --color-accent-primary: var(--accent-primary);
+  --color-accent-secondary: var(--accent-secondary);
+  --color-accent-tertiary: var(--accent-tertiary);
+  --color-accent-glow: var(--accent-glow);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-tertiary: var(--text-tertiary);
+  --color-text-muted: var(--text-muted);
+
+  --color-background-primary: var(--background-primary);
+  --color-background-secondary: var(--background-secondary);
+  --color-background-tertiary: var(--background-tertiary);
+  --color-background-on-surface: var(--background-on-surface);
+
+  --color-border: var(--border);
+  --color-border-light: var(--border-light);
+
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+
+
+  --breakpoint-xs: 425px;
+}
