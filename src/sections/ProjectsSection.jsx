@@ -28,9 +28,9 @@ function ProjectSection() {
       description:
         "A responsive personal portfolio showcasing projects, skills, and experience with smooth animations, dark/light mode, and a modern UI built using React.",
       tags: ["React", "Tailwind CSS"],
-      imageURL: "tech-store-screenshot-3.jpg",
-      liveDemoURL: "#",
-      sourceCodeURL: "#",
+      imageURL: "portfolio-screenshot.jpeg",
+      liveDemoURL: "https://profrontdev.netlify.app/",
+      sourceCodeURL: "https://github.com/abdulhaiabid/portfolio-website",
     },
     {
       id: "1083",
@@ -38,9 +38,9 @@ function ProjectSection() {
       description:
         "A clean and intuitive note-taking application that allows users to create, edit, delete, and organize notes with a fast and responsive interface.",
       tags: ["React", "JavaScript", "CSS"],
-      imageURL: "tech-store-screenshot-3.jpg",
-      liveDemoURL: "#",
-      sourceCodeURL: "#",
+      imageURL: "notes-app-screenshot-1.jpeg",
+      liveDemoURL: "https://basicreactnotesapp.netlify.app/",
+      sourceCodeURL: "https://github.com/abdulhaiabid/react-notes-app",
     },
     {
       id: "1084",
