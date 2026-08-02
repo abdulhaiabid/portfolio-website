@@ -19,8 +19,8 @@ function ProjectSection() {
         "A modern e-commerce application featuring product browsing, category filtering, shopping cart functionality, and a responsive user interface built with React and Tailwind CSS.",
       tags: ["React", "Tailwind CSS", "JavaScript"],
       imageURL: "tech-store-screenshot-3.jpg",
-      liveDemoURL: "#",
-      sourceCodeURL: "#",
+      liveDemoURL: "https://ecommercetechstore.netlify.app/",
+      sourceCodeURL: "https://github.com/abdulhaiabid/e-commerce-tech-store",
     },
     {
       id: "1082",
