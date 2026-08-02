@@ -6,8 +6,8 @@ function ProjectSection() {
       description: "A comprehensive tech store with real-time analytics, inventory management and order tracking — built with React and Tailwind.",
       tags: ["React", "Tailwind"],
       imageURL: "tech-store-screenshot-3.jpg",
-      liveDemoURL: "#",
-      sourceCodeURL: "#"
+      liveDemoURL: "https://ecommercetechstore.netlify.app/",
+      sourceCodeURL: "https://github.com/abdulhaiabid/e-commerce-tech-store"
     },
   ];
 
