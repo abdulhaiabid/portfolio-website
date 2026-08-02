@@ -24,7 +24,7 @@ function HeroSection() {
           <h1 className="pt-4 md:self-start text-5xl sm:text-6xl text-text-primary uppercase font-heading font-bold">Abdul Hai</h1>
           <h2 className="pt-2 text-xl sm:text-3xl text-text-tertiary font-mono font-semibold">Frontend Developer</h2>
           <p className="py-4 text-base sm:text-lg text-center md:text-start text-text-secondary leading-7">
-            I build modern, responsive, and user-friendly web applications using React, JavaScript, Tailwind CSS, and Node.js. As a Software Engineering student, I'm passionate about creating clean interfaces, solving real-world problems, and continuously expanding my full-stack development skills.
+            I build modern, responsive, and user-friendly web applications using React, JavaScript, Tailwind CSS, and Node.js. I'm passionate about creating clean interfaces, solving real-world problems, and continuously expanding my full-stack development skills.
           </p>
           <div className="pt-2 self-stretch sm:self-center md:self-start flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-2">
             <a
