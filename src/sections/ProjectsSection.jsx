@@ -29,7 +29,7 @@ function ProjectSection() {
         "A responsive personal portfolio showcasing projects, skills, and experience with smooth animations, dark/light mode, and a modern UI built using React.",
       tags: ["React", "Tailwind CSS"],
       imageURL: "portfolio-screenshot.jpeg",
-      liveDemoURL: "https://profrontdev.netlify.app/",
+      liveDemoURL: "https://abdulhaiportfolio.netlify.app/",
       sourceCodeURL: "https://github.com/abdulhaiabid/portfolio-website",
     },
     {
