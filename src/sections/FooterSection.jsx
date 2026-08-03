@@ -38,13 +38,13 @@ function FooterSection() {
           <li>
             <a
               title="GitHub"
-              href="#"
+              href="https://github.com/abdulhaiabid"
               className="px-4 py-2 inline-block font-semibold bg-background-tertiary border border-border transition-color duration-150 ring ring-transparent rounded-full hover:bg-[oklch(from_var(--background-primary)_calc(l*1.8)_calc(c*1.5)_h)] outline-none focus:ring-accent-primary">GitHub</a>
           </li>
           <li>
             <a
               title="LinkedIn"
-              href="#"
+              href="https://linkedin.com/in/abdulhaiabid"
               className="px-4 py-2 inline-block font-semibold bg-background-tertiary border border-border transition-color duration-150 ring ring-transparent rounded-full hover:bg-[oklch(from_var(--background-primary)_calc(l*1.8)_calc(c*1.5)_h)] outline-none focus:ring-accent-primary">LinkedIn</a>
           </li>
         </ul>

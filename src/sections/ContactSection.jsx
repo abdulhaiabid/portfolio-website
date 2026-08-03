@@ -1,3 +1,5 @@
+import ContactForm from "../components/ContactForm";
+
 function ContactSection() {
 
   const workflowSteps = [
@@ -72,7 +74,7 @@ function ContactSection() {
                   href="mailto:abdulhaiabid50@gmail.com"
                   className="flex items-center text-sm sm:text-base ring ring-transparent outline-none focus:ring-accent-primary">
                   abdulhaiabid50@gmail.com
-                  <span class="material-symbols-outlined ml-2 text-sm! md:text-base! text-text-secondary">
+                  <span className="material-symbols-outlined ml-2 text-sm! md:text-base! text-text-secondary">
                     open_in_new
                   </span>
                 </a>
@@ -109,7 +111,8 @@ function ContactSection() {
             </ul> */}
           </div>
           <div className="col-span-1 md:col-span-6 text-text-primary">
-            <form
+            <ContactForm />
+            {/* <form
               action=""
               onSubmit={handleContactFormSubmit}
               className="p-4 md:p-6 flex flex-col gap-4 bg-background-tertiary [box-shadow:0px_0px_20px_1px_rgba(0,0,0,0.2)] rounded-lg md:rounded-2xl">
@@ -146,7 +149,7 @@ function ContactSection() {
                 className="px-8 py-4 sm:py-4 flex justify-center items-center gap-1 text-sm text-background-primary dark:text-text-primary font-bold bg-linear-to-br from-accent-primary to-accent-secondary rounded-full transition-shadow duration-150 hover:bg-accent-primary/60 cursor-pointer hover:[box-shadow:0_0_16px_var(--accent-primary)] outline-none focus:[box-shadow:0_0_16px_var(--accent-primary)]">
                 Send Message
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
       </div>
