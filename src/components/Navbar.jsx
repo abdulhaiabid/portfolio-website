@@ -61,7 +61,7 @@ function Navbar() {
 
 
           <div className={`grid ${isNavbarOpen ? "py-4 md:py-0 grid-rows-[1fr]" : "grid-rows-[0fr]"} md:grid-rows-[1fr] transition-[grid-template-rows]`}>
-            <ul className={`flex flex-col md:flex-row md:items-center gap-4 ${isNavbarOpen ? "overflow-auto scrollbar-none" : "overflow-hidden"} md:overflow-visible`}>
+            <ul className={`flex flex-col md:flex-row md:items-center gap-4 ${isNavbarOpen ? "p-1 overflow-auto scrollbar-none" : "overflow-hidden"} md:p-0 md:overflow-visible`}>
               {
                 navLinks.map(link => (
                   <li
