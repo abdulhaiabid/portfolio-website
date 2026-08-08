@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useState, useEffect, createContext } from "react";
 import { useTheme } from "./ThemeProvider";
+import resume from "../assets/abdulhai-resume.pdf";
 
 function Navbar() {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
@@ -87,7 +88,8 @@ function Navbar() {
                 </button>
                 <a
                   title="Download Resume"
-                  href="resume.pdf"
+                  href={resume}
+                  download
                   className="px-4 py-3 md:py-2 flex-1 flex justify-center items-center gap-1 text-sm text-background-primary dark:text-text-primary font-bold bg-linear-to-br from-accent-primary to-accent-secondary rounded-full ring ring-transparent transition-color duration-150 cursor-pointer hover:bg-accent-primary/60 hover:[box-shadow:0_0_16px_var(--accent-primary)] outline-none focus:ring-accent-primary">
                   <span className="material-symbols-outlined text-base! leading-0! [font-variation-settings:'FILL'1]">
                     article

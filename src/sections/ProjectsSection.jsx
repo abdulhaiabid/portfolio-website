@@ -6,7 +6,7 @@ function ProjectSection() {
       description: "A comprehensive tech store with real-time analytics, inventory management and order tracking — built with React and Tailwind.",
       tags: ["React", "Tailwind"],
       imageURL: "tech-store-screenshot-3.jpg",
-      liveDemoURL: "https://ecommercetechstore.netlify.app/",
+      liveDemoURL: "https://gadgetstack.vercel.app",
       sourceCodeURL: "https://github.com/abdulhaiabid/e-commerce-tech-store"
     },
   ];
@@ -19,7 +19,7 @@ function ProjectSection() {
         "A modern e-commerce application featuring product browsing, category filtering, shopping cart functionality, and a responsive user interface built with React and Tailwind CSS.",
       tags: ["React", "Tailwind CSS", "JavaScript"],
       imageURL: "tech-store-screenshot-3.jpg",
-      liveDemoURL: "https://ecommercetechstore.netlify.app/",
+      liveDemoURL: "https://gadgetstack.vercel.app",
       sourceCodeURL: "https://github.com/abdulhaiabid/e-commerce-tech-store",
     },
     {
@@ -29,7 +29,7 @@ function ProjectSection() {
         "A responsive personal portfolio showcasing projects, skills, and experience with smooth animations, dark/light mode, and a modern UI built using React.",
       tags: ["React", "Tailwind CSS"],
       imageURL: "portfolio-screenshot.jpeg",
-      liveDemoURL: "https://abdulhaiportfolio.netlify.app/",
+      liveDemoURL: "https://abdulhai-portfolio.vercel.app",
       sourceCodeURL: "https://github.com/abdulhaiabid/portfolio-website",
     },
     {
@@ -39,7 +39,7 @@ function ProjectSection() {
         "A clean and intuitive note-taking application that allows users to create, edit, delete, and organize notes with a fast and responsive interface.",
       tags: ["React", "JavaScript", "CSS"],
       imageURL: "notes-app-screenshot-1.jpeg",
-      liveDemoURL: "https://basicreactnotesapp.netlify.app/",
+      liveDemoURL: "https://inkflow-notes.vercel.app",
       sourceCodeURL: "https://github.com/abdulhaiabid/react-notes-app",
     },
     {
@@ -48,9 +48,9 @@ function ProjectSection() {
       description:
         "An AI-powered web application that removes image backgrounds through API integration, providing a simple and seamless image editing experience.",
       tags: ["React", "Node.js", "API Integration"],
-      imageURL: "bg-remover-screenshot- Copy.jpeg",
-      liveDemoURL: "#",
-      sourceCodeURL: "#"
+      imageURL: "ai-bg-remover-screenshot.jpeg",
+      liveDemoURL: "https://pixelcut-bg-remover.vercel.app",
+      sourceCodeURL: "https://github.com/abdulhaiabid/ai-background-remover"
     },
   ];
   return (

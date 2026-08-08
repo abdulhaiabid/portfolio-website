@@ -5,9 +5,6 @@ const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 function ContactForm() {
-  console.log("SERVICE_ID:", SERVICE_ID);
-  console.log("TEMPLATE_ID:", TEMPLATE_ID);
-  console.log("PUBLIC_KEY:", PUBLIC_KEY);
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -60,9 +57,6 @@ function ContactForm() {
       );
 
       const result = await response.text();
-
-      console.log("Status:", response.status);
-      console.log("Response:", result);
 
       if (!response.ok) {
         throw new Error(result);
